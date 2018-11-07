@@ -192,7 +192,7 @@ github:https://github.com/HelloMX/SSH-/tree/master/project/myWeb
        </bean>
        ```
 
-     *  <span id="jump1">Action类由Struts2自身去创建</span>
+     * <span id="jump1">Action类由Struts2自身去创建</span>
 
        applicationContext.xml中**不需要**添加关于**productAction**的Bean
 
