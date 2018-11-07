@@ -40,14 +40,6 @@
     <orderEntry type="library" name="Spring-4.3.18.RELEASE" level="project" />
     <orderEntry type="library" name="Hibernate 5.3.7-5.3.7" level="project" />
     <orderEntry type="library" name="Struts 2-2.5.14.1" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://D:/Programming/Tools/database/jdbc/mysql-connector-java-8.0.13.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="mysql-connector-java-8.0.13" level="project" />
   </component>
 </module>

@@ -1,5 +1,7 @@
 ### SSH框架的整合
 
+github:https://github.com/HelloMX/SSH-/tree/master/project/myWeb
+
 1. 简介
 
    * 三大框架之间的关系
@@ -17,6 +19,10 @@
    * 导入相关jar包
 
      参考：[框架回顾和介绍参考](#jump)
+
+     红色以及mysql为需要手动添加的，其余为idea自动下载的。
+
+     ![4](images/4.png)
 
    * 配置web.xml
 
@@ -107,8 +113,6 @@
        }
        ```
 
-       ​
-
    * 编写Action，Service，DAO
 
      * ProductAction
@@ -151,19 +155,14 @@
            public void setProductDao(ProductDao productDao) {
                this.productDao = productDao;
            }
-
-
-           //业务层保存商品的方法
+          //业务层保存商品的方法
            public void save(Product product) {
                System.out.println("service 中的save执行了");
                productDao.save(product);
-
+        
            }
        }
        ```
-
-       ​
-
      * ProductDao
 
        ```java
