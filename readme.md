@@ -194,9 +194,7 @@ github:https://github.com/HelloMX/SSH-/tree/master/project/myWeb
 
      *  <span id="jump1">Action类由Struts2自身去创建</span>
 
-       applicationContext.xml中**不需要**添加关于**productAction**的Bean
-
-       需要**struts2-spring-plugin.jar**
+       applicationContext.xml中**不需要**添加关于**productAction**的Bean,需要**struts2-spring-plugin.jar**
 
        此时struts.xml的配置
 
