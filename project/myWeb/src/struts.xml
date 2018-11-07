@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="ssh" extends="struts-default" namespace="/">
+        
+        <!--&lt;!&ndash;当action由struts管理时，此处要写全路径，且spring的配置中不需要写其他内容&ndash;&gt;-->
+        <!--<action name="product_*" class="learn.ssh.action.ProductAction" method="{1}">-->
+
+        <!--</action>-->
+        <!---->
+        
+        <!--当action由spring管理时，此处class只需要写 spring中配置的bean的id-->
+        <action name="product_*" class="productAction" method="{1}">
+
+        </action>
+
+    </package>
+</struts>
